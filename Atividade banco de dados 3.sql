@@ -13,6 +13,7 @@ CREATE TABLE fornecedores(
     email varchar(50),
     PRIMARY KEY (codigo)
 );
+
 /*Para inserir dados na tabela, você pode usar o comando INSERT INTO seguido pelo nome da tabela e os valores a serem inseridos2.*/
 
 INSERT INTO fornecedores (nome, email) VALUES ('Weden', 'weden@aluno.com');
